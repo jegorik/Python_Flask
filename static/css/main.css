@@ -1,0 +1,139 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Use a more modern font */
+    background-color: #f8f9fa; /* Light background color */
+    color: #343a40; /* Dark text color */
+    line-height: 1.6; /* Improve readability */
+    padding: 20px; /* Add some padding */
+}
+
+header {
+    background-color: #007bff; /* Primary color */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #343a40; /* Dark footer */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input[type="text"], input[type="submit"], button {
+    margin: 5px 0;
+    border: 1px solid #ced4da; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+input[type="text"]:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+table {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse; /* Remove space between borders */
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6; /* Light border */
+}
+
+th {
+    background-color: #007bff; /* Header background color */
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+.alert {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.alert-info {
+    background-color: #d1ecf1; /* Light blue */
+    color: #0c5460; /* Dark blue */
+}
+
+.alert-warning {
+    background-color: #fff3cd; /* Light yellow */
+    color: #856404; /* Dark yellow */
+}
+
+.alert-danger {
+    background-color: #f8d7da; /* Light red */
+    color: #721c24; /* Dark red */
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px; /* Less padding on smaller screens */
+    }
+
+    table {
+        font-size: 14px; /* Smaller font size for tables */
+    }
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: black;
+}
+
+#action {
+    text-align: center;
+}
+
+#form-update {
+    text-align: center;
+}
